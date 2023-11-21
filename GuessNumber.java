@@ -1,5 +1,5 @@
 //Task 1 Number Guess Game
-// Oasis Infobyte //
+// Cognorise Infotech //
 import java.util.*;
 
 public class GuessNumber {
