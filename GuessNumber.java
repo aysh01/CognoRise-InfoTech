@@ -11,7 +11,7 @@ public class GuessNumber {
         // int[] arr = new int[100];
         int i = rd.nextInt(101);
         System.out.println(i); // Random number is printed in int i..
-        // ----- The, Above Line is Uncommented for Demonstration purposes.. //---
+        // ----- The, Above Line is Printed only for Demonstration purposes.. //---
 
         int z = 2; // Max. Number of Attempts ---(1)
         for (int arr = 0; arr <= z; arr++) {
