@@ -1,4 +1,4 @@
-//Task 1 Number Guess Game
+//Task 1 Guess the Number .?
 // Cognorise Infotech //
 import java.util.*;
 
