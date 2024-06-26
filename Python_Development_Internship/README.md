@@ -11,7 +11,7 @@
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
 </h1>
     <div align="center">
-  <img src="https://github.com/aysh01/CognoRise-InfoTech/blob/main/Python_Development_Internship/661298233062300.jpg" width="500" height="300"/><br>
+  <img src="https://github.com/aysh01/CognoRise-InfoTech/blob/main/Python_Development_Internship/661298233062300.jpg" width="500" height="500"/><br>
       <hr>
       <div align="left">
 :woman_technologist: This, is a IBM SkillsBuild Internship which is provided by <a href="https://www.linkedin.com/company/edunetfoundation/">Edunet Foundation</a>..<br>
