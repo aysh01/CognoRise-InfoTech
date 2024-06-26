@@ -14,7 +14,7 @@
   <img src="https://github.com/aysh01/CognoRise-InfoTech/blob/main/Python_Development_Internship/661298233062300.jpg" width="500" height="500"/><br>
       <hr>
       <div align="left">
-:woman_technologist: This, is a Python Development Internship which is provided by <a href="https://www.linkedin.com/company/edunetfoundation/">CognoRise InfoTech</a>..<br>
+:woman_technologist: This, is a Python Development Internship which is provided by <a href="https://in.linkedin.com/company/cognoriseinfotech">CognoRise InfoTech</a>..<br>
       Here, you'll get all the weekly updates about the internship. <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"><br>
 :mailbox:How to reach me: <a href="https://www.linkedin.com/in/aayush-kantak">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
