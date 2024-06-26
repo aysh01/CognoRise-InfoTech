@@ -14,7 +14,7 @@
       <hr>
       <div align="left">
 :woman_technologist: This, is a Cognorise Infotech Internship Page..<br>
-      Here, you'll get all Internship task done by me during my Java Programming Internship in Cognorise Infotech. <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"><br>
+      Here, you'll get all Internship task done by me during my Internship with Cognorise Infotech. <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"><br>
 :mailbox:How to reach me: <a href="https://www.linkedin.com/in/aayush-kantak-88a7b4271?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
   </a><br>
