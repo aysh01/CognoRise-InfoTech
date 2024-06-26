@@ -11,7 +11,7 @@
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
 </h1>
     <div align="center">
-  <img src="https://hapeo.com/wp-content/uploads/2019/12/1_t8sE0zYy7a3csAtqCeYULg.jpeg" width="300" height="300"/><br>
+  <img src="https://hapeo.com/wp-content/uploads/2019/12/1_t8sE0zYy7a3csAtqCeYULg.jpeg" width="500" height="300"/><br>
       <hr>
       <div align="left">
 :woman_technologist: This, is a IBM SkillsBuild Internship which is provided by <a href="https://www.linkedin.com/company/edunetfoundation/">Edunet Foundation</a>..<br>
