@@ -1,5 +1,5 @@
 <div id="header" align="center">
-  <a href="https://lnkd.in/dsmnU-Bu">
+  <a href="https://cognoriseinfotech.com/">
     <img src="https://sdn.signalhire.co/storage/company/d9bc/dec5/3b85/fa1e/9992/eead/9ac7/beb4.webp" width="100"/>
   </a><br>
     <a href="https://www.linkedin.com/posts/aayush-kantak_skillsbuild-elearning-entrylevelpositions-activity-7208417643400224769-xE3j?utm_source=share&utm_medium=member_android">
