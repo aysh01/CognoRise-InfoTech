@@ -7,7 +7,7 @@
   </a><br>
         <img src="https://komarev.com/ghpvc/?username=aysh01&style=flat-square&color=blue" alt=""/>
 <h1>
-  IBM SkillsBuild Internship offered by Edunet Foundation 
+  CognoRise InfoTech Internship
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
 </h1>
     <div align="center">
