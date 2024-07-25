@@ -10,7 +10,7 @@
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
 </h1>
     <div align="center">
-  <img src="Project__/img/Screenshot 2024-03-16 095353.png" width="600" height="300"/><br>
+  <img src="https://github.com/aysh01/CognoRise-InfoTech/blob/main/Hackathon/Web-Dev-Hackathon/img/Screenshot%202024-03-16%20095353.png" width="600" height="300"/><br>
       <hr>
       <div align="left">
 :woman_technologist: This, is a Cognorise Infotech WebDev Hackathon..<br>
