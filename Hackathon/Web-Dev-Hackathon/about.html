@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>24x7 - Edu | Landing Page</title>
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/dropdown.css">
+    <link rel="stylesheet" href="css/scrollbar.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="icon" href="imagesbkup/Logo/Logo.jpg">
+</head>
+
+<body style="scroll-behavior: smooth;">
+    <div class="about">
+        <section class="newsletter"></section>
+    </div>
+    <div class="bottom" id="java">
+        <h1 class="whatislibrary">
+            Learn Coding with Java from Scratch: Essential Training</h1>
+        <div class="answer"><br>
+            <h2 style="text-align: left; ">
+                <p
+                    style="margin-left: 1%;font-size: 50%;padding: 2px 2px 5px;border: 2px solid;border-block: inherit;letter-spacing: 4px;text-shadow: black 2px 6px 20px;">
+                    &nbsp;What you'll learn<br>
+                    🎯&nbsp;Introduction to coding with Java.<br>
+                    🎯&nbsp;Java Tools and Setup.<br>
+                    🎯&nbsp;Variables, Data Types, Casting, Operators.<br>
+                    🎯&nbsp;Working with Arrays in depth
+                </p>
+            </h2><br>
+        </div>
+    </div>
+    <div class="footer" id="data-science">
+        <p class="category">
+            &nbsp;&nbsp;&nbsp;&nbsp;Machine Learning A-Z: AI, Python & R + ChatGPT
+            <br>
+            &nbsp;What you'll learn
+            <br>
+            🀄&nbsp;Master Machine Learning on Python & R.<br>
+            🀄&nbsp;Make Accurate Predictions & Analysis.<br>
+            🀄&nbsp;Handle specific topics like NLP and Deep Learning.
+        </p>
+    </div>
+    <img class="footer-img">
+    <!--Enter your image source here before class_name-->
+    <!--src= "Your_file_name" -->
+    <div class="footer-hr">
+        <hr><span>Lorem ipsum, dolor sit amet</span>
+    </div>
+    <div class="bottom-footer" id="chatGPT">
+        <div class="bottom-footer-1">
+            <h1>ChatGPT Masterclass - Build Solutions and Apps with ChatGPT</h1>
+            <div style="width: 99%;height: 98.5%;overflow: scroll;padding: 5px;scroll-behavior: smooth;">
+                <!---ScrollBar-->
+                <div class="bottom-scroll">
+                    <!--bottom-scroll--->
+                    <img src="/imagesbkup/about/pic-1.png">
+                    <h3>What you'll learn</h3>
+                    <p>🤷‍♂️&nbsp;The inner workings of OpenAI, ChatGPT.<br>
+                        🤷‍♂️&nbsp;Integrate ChatGPT into several business platforms, like Outlook, Teams, Excel,
+                        etc.<br>
+                        🤷‍♂️&nbsp;Create a ChatGPT app that generates stock photos to be used in pitch presentations.
+                    </p>
+                </div>
+
+                <div class="bottom-scroll1">
+                    <!--bottom-scroll1--->
+                    <img src="/imagesbkup/company.png"
+                        style="height: 5rem;width: 67rem;object-fit: cover;margin-top: -26px;border-radius: unset;">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="top" class="top">
+        <!--Quick/Links--->
+        <div class="border">
+        </div>
+        <div class="dropdown">
+            <p style="cursor: pointer;">Quick Links</p>
+            <div class="dropdown-content" style="cursor: pointer;">
+                <a href="index.html">Home
+                </a>
+                <a href="/index.html#navigate">Start Learning Today
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--Extra/Links--->
+    <div class="border1">
+    </div>
+    <p class="top-p1" style="cursor: pointer;">Extra Links</p>
+    <p class="top-p1" style="cursor: pointer;" onclick="subscribe()">Subscribe</p>
+</body>
+<script>
+    function subscribe() {
+        var a = prompt("Enter your Email");
+        alert("Thanks for Subscribing");
+    }
+    // 1645
+    var id = document.getElementById("top");
+    // var type=document.getElementById("type");
+    var scrollFunc = function () {
+        var y = window.scrollY;
+        if (y >= 1640) {
+            id.style.opacity = "1";
+            id.style.height = "25vh";
+            id.style.marginTop = "5vh";
+            id.style.transition = "0.6s";
+            // type.style.animationName = "animate";
+        }
+        else {
+            id.style.opacity = "0";
+            id.style.height = "";
+            id.style.marginTop = "";
+            id.style.transition = "0.6s";
+        }
+    };
+    window.addEventListener("scroll", scrollFunc);
+
+</script>
+
+</html>

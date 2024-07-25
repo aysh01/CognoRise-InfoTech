@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with Meyawo landing page.">
+    <meta name="author" content="Devcrud">
+    <title>24x7 - Edu | Landing Page</title>
+    <link rel="icon" href="imagesbkup/Logo/Logo.jpg">
+    <link rel="stylesheet" href="css/style.css">
+    <!--2-->
+    <link rel="stylesheet" href="css/bkup2.css">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/scrollbar.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/horiz.css">
+    <!--1-->
+
+    <!--===============JavaScript-=================-->
+    <script src="/js/index.js"></script>
+    <script src="/js/horiz.js"></script>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+    <div id="preloader"></div>
+
+    <!-- Page Navbar -->
+    <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
+        <div class="container">
+            <!-- <a class="logo" style="font-size: 30px;cursor: pointer;font-family: var(--font3);"
+                onclick="logo()">Books.com</a> -->
+
+            <img src="/Stock_Images/book (transparent).png" height="90px" width="90px">
+            <p class="container-p" onmouseover="p(this)" onmouseout="pc(this)">24x7</p>
+            <a class="nav" id="n" onclick="toggle()">&#9776;</a>
+            <ul id="nav-toggle" class="ul" style="font-family: var(--font2);">
+                <a href="index.html" style="text-decoration: none;">
+                    <li id="h" style="list-style-type: none;cursor: pointer;color: white;">Home</li>
+                </a>
+                <a href="about.html" style="text-decoration: none;">
+                    <li id="about" class="about"
+                        style="list-style-type: none;margin-left: 30px;cursor: pointer;color: var(--rebeca);">About</li>
+                </a>
+                <a onclick="book()" style="text-decoration: none;">
+                    <li id="books" style="list-style-type: none;margin-left: 30px;cursor: pointer;">Books</li>
+                </a>
+                <!-- <a href="music.html" style="text-decoration: none;">
+                    <li id="audiobooks" style="list-style-type: none;margin-left: 30px;width: 140px;cursor: pointer;">
+                        Audio Books</li> -->
+                </a>
+                <a style="text-decoration: none;">
+                    <li id="search" style="list-style-type: none;margin-left: 30px;width: 140px;cursor: pointer;"
+                        onclick="fun()">
+                        Search</li>
+                </a>
+                <script>
+                    function fun() {
+                        window.location.href = "search.html";
+                    }
+
+                    function logoo() {
+                        document.getElementById("dashboard").style.display = "flex";
+                        document.getElementById("user").style.display = "flex";
+                    }
+
+                    function logo1() {
+                        document.getElementById("dashboard").style.display = "none";
+                        document.getElementById("user").style.display = "none";
+                    }
+
+                    function dashboard() {
+                        window.location.href = "login.html";
+                    }
+                </script>
+                <!-- <div class="logo-image">
+                    <img src="imagesbkup/Icons/Account.png" alt="" onclick="logoo()">
+                    <a id="dashboard" onclick="dashboard()">Dashboard</a>
+                </div> -->
+                <img src="/imagesbkup/Icons/User.png" alt="" id="user" class="logo-img-a" onclick="logo1()">
+            </ul>
+            <div id="nv" class="nv" style="cursor: pointer;" onclick="toggleN()">&#9783;</div>
+            <script>
+                function toggle() {
+                    document.getElementById("nav-toggle").style.display = "";
+                    document.getElementById("n").style.display = "none";
+                    document.getElementById("nv").style.display = "unset";
+                    document.getElementById("h").style.color = "";
+                }
+
+                function toggleN() {
+                    document.getElementById("nav-toggle").style.display = "none";
+                    document.getElementById("n").style.display = "";
+                }
+
+                var nav = document.getElementById("nav-toggle");
+                var nv = document.getElementById("nv");
+                window.addEventListener("load", function () {
+                    nav.style.display = "none";
+                    nv.style.display = "none";
+                })
+
+                var loader = document.getElementById("preloader");
+                window.addEventListener("load", function () {
+                    loader.style.display = "none";
+                })
+            </script>
+        </div>
+    </nav><!-- End of Page Navbar -->
+
+    <!-- page header -->
+    <header id="home" class="header">
+        <div class="hr">
+            <hr>
+        </div>
+        <div class="overlay"></div>
+        <div class="header-content container">
+            <h1 class="header-title">
+                <p class="up">Jump into Learning</p>
+                <!--Get Books upto 60% Off-->
+                <!-- <button class="down" style="cursor: pointer;" onmouseover="down(this)" onmouseout="downbtn(this)">Shop
+                    Now</button> -->
+            </h1>
+            <div class="shop-now">
+                <a href="/about.html#java"><img
+                        src="https://tse1.mm.bing.net/th?id=OIP.iIXOmGDzrtTJmdwbn7cGMwHaEJ&pid=Api" height="250px"
+                        width="200px" style="cursor: pointer;" onmouseover="big(this)"
+                        onmouseout="normal(this)">&nbsp;&nbsp;</a>
+                <a href="/about.html#data-science"><img
+                        src="https://tse4.mm.bing.net/th?id=OIP.MatFR9ypZKngxBj5UEa2BwHaE8&pid=Api" height="250px"
+                        width="200px" style="cursor: pointer;" onmouseover="big(this)"
+                        onmouseout="normal(this)">&nbsp;&nbsp;</a>
+                <a href="/about.html#chatGPT"><img
+                        src="https://tse4.mm.bing.net/th?id=OIP.ehsenA9rhQCsdg9r3e9G_QHaEK&pid=Api" height="250px"
+                        width="200px" style="cursor: pointer;" onmouseover="big(this)" onmouseout="normal(this)"></a>
+                <script>
+                    function p(x) {
+                        x.style.letterSpacing = "12px";
+                        x.style.transition = "0.5s";
+                    }
+
+                    function pc(x) {
+                        x.style.letterSpacing = "10px";
+                        x.style.transition = "0.5s";
+                    }
+                    function big(x) {
+                        x.style.height = "270px";
+                        x.style.width = "200px";
+                        x.style.transition = "0.5s";
+                        x.style.borderRadius = "15px";
+                        x.style.boxShadow = "2px 0px 11px 3px";
+                    }
+
+                    function normal(x) {
+                        x.style.height = "";
+                        x.style.width = "";
+                        x.style.transition = "0.5s";
+                        x.style.borderRadius = "";
+                        x.style.boxShadow = "";
+                    }
+                    function down(x) {
+                        // x.style.justifyContent = "unset";
+                        x.style.transition = "0.5s";
+                        x.style.boxShadow = "2px 2px 3px";
+                        x.style.backgroundColor = "var(--green)";
+                    }
+
+                    function downbtn(x) {
+                        x.style.justifyContent = "center";
+                        x.style.transition = "0.5s";
+                        x.style.boxShadow = "";
+                        x.style.backgroundColor = "";
+                    }
+                </script>
+            </div>
+            <div>
+                <img src="/imagesbkup/stand.png" height="250px" width="1200px"
+                    style="margin-left: 20.5%;margin-top: -1.5%;width: 700px;">
+            </div>
+        </div>
+    </header>
+    <div class="wrap" id="navigate">
+        <div class="content-left font1" style="font-size: 15px;">
+            <div class="hr1">
+                <hr>
+            </div>
+            <h1 style="margin-top: 0%;">
+                Accelerate growth — for you or your organization
+            </h1>
+            <div id="wrap" class="wrap-image">
+                <img id="img" src="/imagesbkup/blog-2.jpg" height="540px" width="98%"
+                    style="margin-left: 1%;filter: blur(1.5px);border-radius: 50px 1px;cursor: none;">
+            </div>
+        </div>
+        <script>
+            var id = document.getElementById("img");
+            var wrap = document.getElementById("wrap");
+            var h = document.getElementById("h");
+            var about = document.getElementById("about");
+            var books = document.getElementById("books");
+            var audiobooks = document.getElementById("audiobooks");
+            var search = document.getElementById("search");
+            var scrollFunc = function () {
+                var y = window.scrollY;
+                if (y >= 650) {
+                    id.style.opacity = "1";
+                    wrap.style.display = "unset";
+                    h.style.color = "var(--light)";
+                    about.style.color = "var(--light)";
+                    books.style.color = "var(--light)";
+                    audiobooks.style.color = "var(--light)";
+                    search.style.color = "var(--light)";
+                }
+                else {
+                    id.style.opacity = "0";
+                    wrap.style.display = "none";
+                    h.style.color = "";
+                    about.style.color = "";
+                    books.style.color = "";
+                    audiobooks.style.color = "";
+                    search.style.color = "";
+                }
+
+            };
+            window.addEventListener("scroll", scrollFunc);
+        </script>
+</body>
+
+</html>
