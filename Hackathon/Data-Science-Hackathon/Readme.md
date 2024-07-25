@@ -10,7 +10,7 @@
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
 </h1>
     <div align="center">
-  <img src="https://github.com/aysh01/CognoRise-InfoTech/blob/main/Hackathon/Web-Dev-Hackathon/img/Screenshot%202024-03-16%20095353.png" width="600" height="300"/><br>
+  <img src="https://github.com/aysh01/CognoRise-InfoTech/blob/main/Hackathon/Data-Science-Hackathon/Screenshot%202024-07-25%20181501.png" width="600" height="300"/><br>
       <hr>
       <div align="left">
 :woman_technologist: This, is a Cognorise Infotech Data Science Hackathon..<br>
