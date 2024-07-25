@@ -14,7 +14,7 @@
   <img src="https://hapeo.com/wp-content/uploads/2019/12/1_t8sE0zYy7a3csAtqCeYULg.jpeg" width="800" height="300"/><br>
       <hr>
       <div align="left">
-:woman_technologist: This, is a <a href="https://in.linkedin.com/company/cognoriseinfotech">CognoRise InfoTech</a> Internship in various domains...<br>
+:woman_technologist: This, is a <a href="https://in.linkedin.com/company/cognoriseinfotech">CognoRise InfoTech</a> Internship in various domains. Also, Hackathons which we're conducted by CognoRise InfoTech..<br>
       Here, you'll get all the updates about the internship. <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"><br>
 :mailbox:How to reach me: <a href="https://www.linkedin.com/in/aayush-kantak">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
